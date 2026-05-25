@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   open-pr:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-dind
     steps:
       - name: Check if PR already exists
         id: check-pr
